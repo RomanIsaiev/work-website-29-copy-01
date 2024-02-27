@@ -197,6 +197,8 @@ p {
 }
 
 .header-button {
+  display: block;
+
   padding: 13px;
   border-radius: 60px;
   background: #3c4520;
@@ -924,6 +926,8 @@ p {
 }
 
 .buy-button {
+  display: block;
+
   padding: 13px;
   border-radius: 60px;
   background: #ac1521;
@@ -2076,4 +2080,29 @@ p {
   border: none;
 
   cursor: pointer;
+}
+
+/* .instruction-list */
+
+.instruction-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  margin-bottom: 15px;
+}
+
+.instruction-list .list-item {
+  color: #fff;
+  text-align: center;
+  font-family: "Futura PT";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110%; /* 15.4px */
+
+  max-width: 280px;
+
+  margin-left: auto;
+  margin-right: auto;
 }
